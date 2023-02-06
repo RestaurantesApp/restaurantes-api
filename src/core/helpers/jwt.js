@@ -3,11 +3,18 @@ import { jwtSingOptions, jwtVerifyOptions } from '../../config/index.js'
 import { privateKeyFile, publicKeyFile } from '../../common/constants/index.js'
 
 const generateToken = payload => {
-  const key = {
-    key: privateKeyFile,
-    passphrase: process.env.JWT_PASSPHRASE ?? '',
+  let token = ''
+  try {
+    const key = {
+      key: privateKeyFile,
+      passphrase: process.env.JWT_PASSPHRASE ?? '',
+    }
+    token = jwt.sign(payload, key, jwtSingOptions)
+  } catch (error) {
+    console.log(error)
+    throw { name: 'AsymmetricEncryptionError', data: error }
   }
-  return jwt.sign(payload, key, jwtSingOptions)
+  return token
 }
 
 const verifyToken = token => {
