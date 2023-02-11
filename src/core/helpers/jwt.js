@@ -11,7 +11,6 @@ const generateToken = payload => {
     }
     token = jwt.sign(payload, key, jwtSingOptions)
   } catch (error) {
-    console.log(error)
     throw { name: 'AsymmetricEncryptionError', data: error }
   }
   return token

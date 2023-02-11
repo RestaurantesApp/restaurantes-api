@@ -99,6 +99,9 @@ const updateUser = async (req, res) => {
   const idUser = req.params.idUser
   try {
     const user = await usersModels.findById(idUser).exec()
+    const userSuperAdmin = await usersModels
+      .findOne({ email: process.env.BASIC_AUTH_EMAIL })
+      .exec()
     const userFind = await usersModels.findOne({ email: newUser.email }).exec()
 
     // Validations
@@ -112,6 +115,14 @@ const updateUser = async (req, res) => {
     }
     if (user.role === Roles.SuperAdmin && req.user.role !== Roles.SuperAdmin) {
       dataResponse.message = t('USERS_EditSuperAdmin')
+      return res.status(400).send(dataResponse)
+    }
+    if (req.user.id === idUser && req.user.role !== newUser.role) {
+      dataResponse.message = t('USERS_NotChangeRoleYourself')
+      return res.status(400).send(dataResponse)
+    }
+    if (idUser === userSuperAdmin.id) {
+      dataResponse.message = t('USERS_EditThisUser')
       return res.status(400).send(dataResponse)
     }
 
@@ -140,6 +151,9 @@ const deleteUser = async (req, res) => {
   const idUser = req.params.idUser
   try {
     const user = await usersModels.findById(idUser).exec()
+    const userSuperAdmin = await usersModels
+      .findOne({ email: process.env.BASIC_AUTH_EMAIL })
+      .exec()
 
     // Validations
     if (!user) {
@@ -152,6 +166,10 @@ const deleteUser = async (req, res) => {
     }
     if (user.role === Roles.SuperAdmin && req.user.role !== Roles.SuperAdmin) {
       dataResponse.message = t('USERS_DeleteSuperAdmin')
+      return res.status(400).send(dataResponse)
+    }
+    if (idUser === userSuperAdmin.id) {
+      dataResponse.message = t('USERS_DeleteThisUser')
       return res.status(400).send(dataResponse)
     }
 

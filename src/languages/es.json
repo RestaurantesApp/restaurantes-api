@@ -1,4 +1,16 @@
 {
+  "PATHS_Users": "Usuarios",
+  "PATHS_Permissions": "Permisos",
+
+  "METHODS_GET": "Ver",
+  "METHODS_POST": "Crear",
+  "METHODS_PATCH": "Editar",
+  "METHODS_DELETE": "Eliminar",
+
+  "ROLES_SuperAdmin": "Super Administrador",
+  "ROLES_Admin": "Administrador",
+  "ROLES_User": "Usuario",
+
   "RES_InvalidDataFormat": "Formato de datos no válido",
   "RES_Application": "Aplicación no autorizada",
   "RES_InvalidCredentials": "Credenciales no válidas",
@@ -36,8 +48,11 @@
   "USERS_NotFound": "Usuario no encontrado",
   "USERS_AlreadyExists": "Ya existe un usuario con ese correo electrónico",
   "USERS_EditSuperAdmin": "No puede editar a un usuario super administrador",
+  "USERS_EditThisUser": "No puedes editar este usuario",
+  "USERS_NotChangeRoleYourself": "No se puede cambiar el rol a si mismo",
   "USERS_DeleteSuperAdmin": "No puede eliminar a un usuario super administrador",
   "USERS_DeletYourself": "No se puede eliminar a si mismo",
+  "USERS_DeleteThisUser": "No puedes eliminar este usuario",
   "USERS_AlreadyAssignPermission": "Permiso ya asignado",
   "USERS_AlreadyRemovePermission": "Permiso ya removido",
   "USERS_PermissionSuperAdmin": "Este usuario ya cuenta con el rango más alto de permisos",

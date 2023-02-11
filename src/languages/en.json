@@ -1,4 +1,16 @@
 {
+  "PATHS_Users": "Users",
+  "PATHS_Permissions": "Permissions",
+
+  "METHODS_GET": "View",
+  "METHODS_POST": "Create",
+  "METHODS_PATCH": "Edit",
+  "METHODS_DELETE": "Delete",
+
+  "ROLES_SuperAdmin": "Super Admin",
+  "ROLES_Admin": "Admin",
+  "ROLES_User": "User",
+
   "RES_InvalidDataFormat": "Invalid data format",
   "RES_Application": "Unauthorized application",
   "RES_InvalidCredentials": "Invalid credentials",
@@ -36,8 +48,11 @@
   "USERS_NotFound": "User not found",
   "USERS_AlreadyExists": "There is already a user with that email",
   "USERS_EditSuperAdmin": "You can't edit a super admin user",
+  "USERS_EditThisUser": "You can't edit this user",
+  "USERS_NotChangeRoleYourself": "You can't change role yourself",
   "USERS_DeleteSuperAdmin": "You can't delete a super admin user",
   "USERS_DeletYourself": "You can't delete itself",
+  "USERS_DeleteThisUser": "You can't delete this user",
   "USERS_AlreadyAssignPermission": "Permission already assigned",
   "USERS_AlreadyRemovePermission": "Permission already removed",
   "USERS_PermissionSuperAdmin": "This user already has the highest range of permissions",

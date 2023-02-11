@@ -70,13 +70,30 @@ paths:
                       paths:
                         type: array
                         items:
-                          type: string
-                          example: users
+                          type: object
+                          properties:
+                            id:
+                              type: string
+                            label:
+                              type: string
                       methods:
                         type: array
                         items:
-                          type: string
-                          example: GET
+                          type: object
+                          properties:
+                            id:
+                              type: string
+                            label:
+                              type: string
+                      roles:
+                        type: array
+                        items:
+                          type: object
+                          properties:
+                            id:
+                              type: string
+                            label:
+                              type: string
                       toekn:
                         type: string
                         example: eyJhbGciOiJ.eyJpZCI6IjYzNjE4ZTU1YTNlZTMxNj.CU19JELdK6wP
