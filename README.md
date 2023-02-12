@@ -1,4 +1,4 @@
-# Base-Node-JS
+# restaurantes-app
 
 ## Steps to follow
 1. Clone the project.
