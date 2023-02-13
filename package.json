@@ -1,5 +1,5 @@
 {
-  "name": "restaurantes-app",
+  "name": "restaurantes",
   "version": "0.1.0",
   "description": "NodeJS base project for the rapid creation of backends with certain functionalities already created and programming patterns already defined.",
   "main": "index.js",
