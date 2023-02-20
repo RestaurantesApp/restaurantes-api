@@ -1,4 +1,4 @@
-# restaurantes
+# restaurantes-app
 
 ## Steps to follow
 1. Clone the project.

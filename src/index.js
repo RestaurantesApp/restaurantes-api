@@ -10,6 +10,7 @@ import {
   authRoutes,
   permissionsRoutes,
   usersRoutes,
+  profileRoutes,
 } from './api/v1/routes/index.js'
 import { languages } from './middlewares/validations/index.js'
 
@@ -46,20 +47,14 @@ app.use(
   swaggerUI.setup(undefined, swaggerOptions),
 )
 app.get('/', (_req, res) => {
-  const html = `<h1><a href="${process.env.SERVER_URL_NAME}/api-docs">Swagger api documentation</a></h1>`
+  const html = `<h1><a href="${SERVER_URL_NAME}/api-docs">Swagger api documentation</a></h1>`
   return res.status(200).send(html)
 })
-app.get('/api/v1/docs/swagger.yaml', (_req, res) => {
-  swaggerDocumentV1.servers = [
-    {
-      url: `${process.env.SERVER_URL_NAME}/api/v1`,
-    },
-  ]
-  res.json(swaggerDocumentV1)
-})
+app.get('/api/v1/docs/swagger.yaml', (_req, res) => res.json(swaggerDocumentV1))
 app.use('/api/v1', authRoutes)
 app.use(`/api/v1/${Paths.users}`, usersRoutes)
 app.use(`/api/v1/${Paths.permissions}`, permissionsRoutes)
+app.use(`/api/v1/${Paths.profile}`, profileRoutes)
 
 const bootstrap = async () => {
   await connectDB()

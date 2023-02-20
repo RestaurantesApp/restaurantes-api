@@ -37,6 +37,11 @@
   "REQUIRED_Path": "La ruta es requerida",
   "REQUIRED_Method": "El método es requerido",
 
+  "PROFILE_NotFound": "Perfil no encontrado",
+  "PROFILE_NotChangeProfile": "No puede editar perfil de otro usuario",
+  "PROFILE_UpdateProfile": "Perfil actualizado",
+  "PROFILE_GetProfile": "Perfil encontrado",
+  
   "USERS_Login": "Usuario autenticado",
   "USERS_GetUsers": "Usuarios listados",
   "USERS_GetUser": "Usuario encontrado",
