@@ -36,11 +36,22 @@
   "REQUIRED_Role": "El rol es requerido",
   "REQUIRED_Path": "La ruta es requerida",
   "REQUIRED_Method": "El método es requerido",
+  "REQUIRED_Status": "El estado es requerido",
+  "REQUIRED_Position": "La posición es requerida",
+  "REQUIRED_UserById": "El id del usuario que crea el registro es requerido",
 
   "PROFILE_NotFound": "Perfil no encontrado",
   "PROFILE_NotChangeProfile": "No puede editar perfil de otro usuario",
   "PROFILE_UpdateProfile": "Perfil actualizado",
   "PROFILE_GetProfile": "Perfil encontrado",
+
+  "CATEGORIES_AlreadyExists": "Ya existe una categoria con  el mismo nombre",
+  "CATEGORIES_AlreadyExistsPosition": "Ya existe una posición con el mismo valor",
+  "CATEGORIES_CreateCategory": "Categoria creada",
+  "CATEGORIES_NotFoun": "Categoria no encontrada",
+  "CATEGORIES_GetCategories": "Categorias listadas",
+  "CATEGORIES_UpdateCategory": "Categoria actualizada",
+  "CATEGORIES_DeleteCategory": "Categoria eliminada",
   
   "USERS_Login": "Usuario autenticado",
   "USERS_GetUsers": "Usuarios listados",
