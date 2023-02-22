@@ -49,9 +49,10 @@
   "CATEGORIES_AlreadyExistsPosition": "An item with the same value already exists",
   "CATEGORIES_CreateCategory": "Created category",
   "CATEGORIES_NotFoun": "Category not found",
+  "CATEGORIES_GetCategory": "Category found",
   "CATEGORIES_GetCategories": "Categorias listadas",
   "CATEGORIES_UpdateCategory": "Updated category",
-  "CATEGORIES_DeleteCategory": "Deleted category",
+  "CATEGORIES_DeleteCategory": "Deactivated category",
 
   "USERS_Login": "Authenticated user",
   "USERS_GetUsers": "Listed users",

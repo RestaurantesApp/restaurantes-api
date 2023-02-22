@@ -5,7 +5,6 @@ import { validateAJV } from '../../core/helpers/index.js'
 const createCategory = (req, res, next) => {
   const dataResponse = { message: '', data: null }
   const { body, t } = req
-
   try {
     const createCategoryShema = Type.Object(
       {
@@ -65,7 +64,6 @@ const createCategory = (req, res, next) => {
 const updateCategory = (req, res, next) => {
   const dataResponse = { message: '', data: null }
   const { body, t } = req
-
   try {
     const updateCategoryShema = Type.Object(
       {
@@ -96,15 +94,13 @@ const updateCategory = (req, res, next) => {
             },
           }),
         ),
-        updateBy: Type.Optional(
-          Type.String({
-            isNotEmpty: true,
-            errorMessage: {
-              isNotEmpty: t('VALID_NotEmpty'),
-              type: t('VALID_String'),
-            },
-          }),
-        ),
+        updateBy: Type.String({
+          isNotEmpty: true,
+          errorMessage: {
+            isNotEmpty: t('VALID_NotEmpty'),
+            type: t('VALID_String'),
+          },
+        }),
       },
       {
         additionalProperties: false,
