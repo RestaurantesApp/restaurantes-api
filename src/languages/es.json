@@ -1,6 +1,9 @@
 {
   "PATHS_Users": "Usuarios",
   "PATHS_Permissions": "Permisos",
+  "PATHS_Categories": "Categorias",
+  "PATHS_Extras": "Extras",
+
 
   "METHODS_GET": "Ver",
   "METHODS_POST": "Crear",
@@ -38,6 +41,7 @@
   "REQUIRED_Method": "El método es requerido",
   "REQUIRED_Status": "El estado es requerido",
   "REQUIRED_Position": "La posición es requerida",
+  "REQUIRED_Price": "El precio es requerido",
   "REQUIRED_UserById": "El id del usuario que crea el registro es requerido",
 
   "PROFILE_NotFound": "Perfil no encontrado",
@@ -53,6 +57,14 @@
   "CATEGORIES_GetCategories": "Categorias listadas",
   "CATEGORIES_UpdateCategory": "Categoria actualizada",
   "CATEGORIES_DeleteCategory": "Categoria desactivada",
+
+  "EXTRAS_AlreadyExists": "Ya existe un extra con  el mismo nombre",
+  "EXTRAS_CreateExtra": "Extra creado",
+  "EXTRAS_NotFoun": "Extra no encontrado",
+  "EXTRAS_GetExtra": "Extra encontrado",
+  "EXTRAS_GetExtras": "Extras listados",
+  "EXTRAS_UpdateExtra": "Extra actualizado",
+  "EXTRAS_DeleteExtra": "Extra desactivado",
   
   "USERS_Login": "Usuario autenticado",
   "USERS_GetUsers": "Usuarios listados",

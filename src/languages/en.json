@@ -1,6 +1,8 @@
 {
   "PATHS_Users": "Users",
   "PATHS_Permissions": "Permissions",
+  "PATHS_Categories": "Categorias",
+  "PATHS_Extras": "Extras",
 
   "METHODS_GET": "View",
   "METHODS_POST": "Create",
@@ -38,6 +40,7 @@
   "REQUIRED_Method": "The method is required",
   "REQUIRED_Status": "status is required",
   "REQUIRED_Position": "The position is required",
+  "REQUIRED_Price": "The price is required",
   "REQUIRED_UserById": "The id of the user who creates the record is required",
 
   "PROFILE_NotFound": "Profile not found",
@@ -53,6 +56,14 @@
   "CATEGORIES_GetCategories": "Categorias listadas",
   "CATEGORIES_UpdateCategory": "Updated category",
   "CATEGORIES_DeleteCategory": "Deactivated category",
+
+  "EXTRAS_AlreadyExists": "There is already an extra with the same name",
+  "EXTRAS_CreateExtra": "Created extra",
+  "EXTRAS_NotFoun": "Extra not found",
+  "EXTRAS_GetExtra": "Extra found",
+  "EXTRAS_GetExtras": "Listed extras",
+  "EXTRAS_UpdateExtra": "Updated extra",
+  "EXTRAS_DeleteExtra": "Deactivated Extra",
 
   "USERS_Login": "Authenticated user",
   "USERS_GetUsers": "Listed users",

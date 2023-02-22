@@ -3,4 +3,5 @@ export const Paths = {
   permissions: 'permissions',
   profile: 'profile',
   categories: 'categories',
+  extras: 'extras',
 }
