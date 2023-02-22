@@ -36,6 +36,8 @@
   "REQUIRED_Role": "The role is required",
   "REQUIRED_Path": "The path is required",
   "REQUIRED_Method": "The method is required",
+  "REQUIRED_Active": "The active is required",
+  "REQUIRED_CreateBy": "The created is required",
 
   "PROFILE_NotFound": "Profile not found",
   "PROFILE_NotChangeProfile": "You can't edit another user's profile",
@@ -66,5 +68,13 @@
   "Permissions_CreatePermission": "Permission created",
   "Permissions_DeletePermission": "Permission removed",
   "Permissions_NotFound": "Permission not found",
-  "Permissions_AlreadyExists": "A permission already exists with the same settings"
+  "Permissions_AlreadyExists": "A permission already exists with the same settings",
+
+  "COMPLEMENTS_AlreadyExists": "There is already a complements with the same name",
+  "COMPLEMENTS_CreateComplement": "Created complement",
+  "COMPLEMENTS_NotFound": "Complement not found",
+  "COMPLEMENTS_GetComplement": "Complement found",
+  "COMPLEMENTS_GetComplements": "Listed complements",
+  "COMPLEMENTS_UpdateComplement": "Updated complement",
+  "COMPLEMENTS_DeactivateComplement": "Deactivated complement"
 }
