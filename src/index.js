@@ -11,6 +11,7 @@ import {
   permissionsRoutes,
   usersRoutes,
   profileRoutes,
+  complementsRoutes,
   categoriesRoutes,
   extrasRoutes,
 } from './api/v1/routes/index.js'
@@ -57,8 +58,10 @@ app.use('/api/v1', authRoutes)
 app.use(`/api/v1/${Paths.users}`, usersRoutes)
 app.use(`/api/v1/${Paths.permissions}`, permissionsRoutes)
 app.use(`/api/v1/${Paths.profile}`, profileRoutes)
+app.use(`/api/v1/${Paths.complements}`, complementsRoutes)
 app.use(`/api/v1/${Paths.categories}`, categoriesRoutes)
 app.use(`/api/v1/${Paths.extras}`,extrasRoutes)
+
 
 const bootstrap = async () => {
   await connectDB()
