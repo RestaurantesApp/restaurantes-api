@@ -12,6 +12,7 @@ import {
   usersRoutes,
   profileRoutes,
   complementsRoutes,
+  categoriesRoutes
 } from './api/v1/routes/index.js'
 import { languages } from './middlewares/validations/index.js'
 
@@ -57,6 +58,8 @@ app.use(`/api/v1/${Paths.users}`, usersRoutes)
 app.use(`/api/v1/${Paths.permissions}`, permissionsRoutes)
 app.use(`/api/v1/${Paths.profile}`, profileRoutes)
 app.use(`/api/v1/${Paths.complements}`, complementsRoutes)
+app.use(`/api/v1/${Paths.categories}`, categoriesRoutes)
+
 
 const bootstrap = async () => {
   await connectDB()
