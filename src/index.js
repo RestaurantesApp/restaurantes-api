@@ -11,6 +11,7 @@ import {
   permissionsRoutes,
   usersRoutes,
   profileRoutes,
+  drinksRoutes,
   complementsRoutes,
   categoriesRoutes,
   localRoutes,
@@ -59,6 +60,7 @@ app.use('/api/v1', authRoutes)
 app.use(`/api/v1/${Paths.users}`, usersRoutes)
 app.use(`/api/v1/${Paths.permissions}`, permissionsRoutes)
 app.use(`/api/v1/${Paths.profile}`, profileRoutes)
+app.use(`/api/v1/${Paths.drinks}`, drinksRoutes)
 app.use(`/api/v1/${Paths.complements}`, complementsRoutes)
 app.use(`/api/v1/${Paths.categories}`, categoriesRoutes)
 app.use(`/api/v1/${Paths.local}`, localRoutes)

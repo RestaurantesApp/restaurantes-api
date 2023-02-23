@@ -99,6 +99,14 @@
   "Permissions_NotFound": "Permission not found",
   "Permissions_AlreadyExists": "A permission already exists with the same settings",
 
+  "DRINKS_AlreadyExists": "There is already a drinks with the same name",
+  "DRINKS_CreateDrink": "Created drink",
+  "DRINKS_NotFound": "Drink not found",
+  "DRINKS_GetDrink": "Drink found",
+  "DRINKS_GetDrinks": "Listed drinks",
+  "DRINKS_UpdateDrink": "Updated drink",
+  "DRINKS_DeactivateDrink": "Deactivated drink",
+
   "COMPLEMENTS_AlreadyExists": "There is already a complements with the same name",
   "COMPLEMENTS_CreateComplement": "Created complement",
   "COMPLEMENTS_NotFound": "Complement not found",
