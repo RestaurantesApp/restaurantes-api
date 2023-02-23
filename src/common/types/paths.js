@@ -4,4 +4,5 @@ export const Paths = {
   profile: 'profile',
   complements: 'complements',
   categories: 'categories',
+  local: 'local'
 }

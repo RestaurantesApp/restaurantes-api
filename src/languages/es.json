@@ -41,6 +41,12 @@
   "REQUIRED_Status": "El estado es requerido",
   "REQUIRED_Position": "La posición es requerida",
   "REQUIRED_UserById": "El id del usuario que crea el registro es requerido",
+  "REQUIRED_Address" :"La dirrección es requerida",
+  "REQUIRED_Phone" : "El número de teléfono es requerido",
+  "REQUIRED_Image":"La imagen es requerida",
+  "REQUIRED_Location":"La ubicación es requerida",
+  "REQUIRED_Latitud":"La latitud es requerida",
+  "REQUIRED_Longitud":"La longitud es requerida",
 
 
   "PROFILE_NotFound": "Perfil no encontrado",
@@ -89,5 +95,14 @@
   "COMPLEMENTS_GetComplement": "Complemento encontrado",
   "COMPLEMENTS_GetComplements": "Listado de Complementos",
   "COMPLEMENTS_UpdateComplement": "Complemento actualizado",
-  "COMPLEMENTS_DeactivateComplement": "Complemento desactivado"
+  "COMPLEMENTS_DeactivateComplement": "Complemento desactivado",
+
+  "LOCAL_AlreadyExists": "Ya existe un local con ese mismo nombre",
+  "LOCAL_CreateLocal": "Local creado",
+  "LOCAL_NotFound": "Local no encontrado",
+  "LOCAL_GetLocal": "Local encontrado",
+  "LOCAL_GetLocals": "Listado de locales",
+  "LOCAL_UpdateLocal": "Local actualizado",
+  "LOCAL_DeactivateLocal": "Local desactivado"
+
 }
