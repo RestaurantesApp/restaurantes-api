@@ -36,11 +36,26 @@
   "REQUIRED_Role": "El rol es requerido",
   "REQUIRED_Path": "La ruta es requerida",
   "REQUIRED_Method": "El método es requerido",
+  "REQUIRED_Active": "El activo es requerido",
+  "REQUIRED_CreateBy": "El creador es requerido",
+  "REQUIRED_Status": "El estado es requerido",
+  "REQUIRED_Position": "La posición es requerida",
+  "REQUIRED_UserById": "El id del usuario que crea el registro es requerido",
+
 
   "PROFILE_NotFound": "Perfil no encontrado",
   "PROFILE_NotChangeProfile": "No puede editar perfil de otro usuario",
   "PROFILE_UpdateProfile": "Perfil actualizado",
   "PROFILE_GetProfile": "Perfil encontrado",
+
+  "CATEGORIES_AlreadyExists": "Ya existe una categoria con  el mismo nombre",
+  "CATEGORIES_AlreadyExistsPosition": "Ya existe una posición con el mismo valor",
+  "CATEGORIES_CreateCategory": "Categoria creada",
+  "CATEGORIES_NotFoun": "Categoria no encontrada",
+  "CATEGORIES_GetCategory": "Categoria encontrada",
+  "CATEGORIES_GetCategories": "Categorias listadas",
+  "CATEGORIES_UpdateCategory": "Categoria actualizada",
+  "CATEGORIES_DeleteCategory": "Categoria desactivada",
   
   "USERS_Login": "Usuario autenticado",
   "USERS_GetUsers": "Usuarios listados",
@@ -67,6 +82,7 @@
   "Permissions_DeletePermission": "Permiso eliminado",
   "Permissions_NotFound": "Permiso no encontrado",
   "Permissions_AlreadyExists": "Ya existe un permiso con la misma configuración", 
+ "Permissions_AlreadyExists": "Ya existe un permiso con la misma configuración",
 
   "DRINKS_AlreadyExists": "Ya existe una bebida con el mismo nombre",
    "DRINKS_CreateDrink": "Bebida creada",
@@ -74,5 +90,13 @@
    "DRINKS_GetDrink": "Bebida encontrada",
    "DRINKS_GetDrinks": "Bebidas listadas",
    "DRINKS_UpdateDrink": "Bebida actualizada",
-   "DRINKS_DeactivateDrink": "Bebida desactivada"
+   "DRINKS_DeactivateDrink": "Bebida desactivada",
+ 
+  "COMPLEMENTS_AlreadyExists": "Ya existe un complemento con ese mismo nombre",
+  "COMPLEMENTS_CreateComplement": "Complemento creado",
+  "COMPLEMENTS_NotFound": "Complemento no encontrado",
+  "COMPLEMENTS_GetComplement": "Complemento encontrado",
+  "COMPLEMENTS_GetComplements": "Listado de Complementos",
+  "COMPLEMENTS_UpdateComplement": "Complemento actualizado",
+  "COMPLEMENTS_DeactivateComplement": "Complemento desactivado"
 }

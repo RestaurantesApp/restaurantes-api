@@ -36,11 +36,26 @@
   "REQUIRED_Role": "The role is required",
   "REQUIRED_Path": "The path is required",
   "REQUIRED_Method": "The method is required",
+  "REQUIRED_Active": "The active is required",
+  "REQUIRED_CreateBy": "The created is required",
+  "REQUIRED_Status": "status is required",
+  "REQUIRED_Position": "The position is required",
+  "REQUIRED_UserById": "The id of the user who creates the record is required",
+
 
   "PROFILE_NotFound": "Profile not found",
   "PROFILE_NotChangeProfile": "You can't edit another user's profile",
   "PROFILE_UpdateProfile": "Updated profile",
   "PROFILE_GetProfile": "Profile found",
+
+  "CATEGORIES_AlreadyExists": "There is already a category with the same name",
+  "CATEGORIES_AlreadyExistsPosition": "An item with the same value already exists",
+  "CATEGORIES_CreateCategory": "Created category",
+  "CATEGORIES_NotFoun": "Category not found",
+  "CATEGORIES_GetCategory": "Category found",
+  "CATEGORIES_GetCategories": "Categorias listadas",
+  "CATEGORIES_UpdateCategory": "Updated category",
+  "CATEGORIES_DeleteCategory": "Deactivated category",
 
   "USERS_Login": "Authenticated user",
   "USERS_GetUsers": "Listed users",
@@ -74,5 +89,13 @@
   "DRINKS_GetDrink": "Drink found",
   "DRINKS_GetDrinks": "Listed drinks",
   "DRINKS_UpdateDrink": "Updated drink",
-  "DRINKS_DeactivateDrink": "Deactivated drink"
+  "DRINKS_DeactivateDrink": "Deactivated drink",
+
+  "COMPLEMENTS_AlreadyExists": "There is already a complements with the same name",
+  "COMPLEMENTS_CreateComplement": "Created complement",
+  "COMPLEMENTS_NotFound": "Complement not found",
+  "COMPLEMENTS_GetComplement": "Complement found",
+  "COMPLEMENTS_GetComplements": "Listed complements",
+  "COMPLEMENTS_UpdateComplement": "Updated complement",
+  "COMPLEMENTS_DeactivateComplement": "Deactivated complement"
 }

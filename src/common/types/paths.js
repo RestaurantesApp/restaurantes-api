@@ -3,4 +3,6 @@ export const Paths = {
   permissions: 'permissions',
   profile: 'profile',
   drinks: 'drinks',
+  complements: 'complements',
+  categories: 'categories',
 }
