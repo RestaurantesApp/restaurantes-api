@@ -44,7 +44,12 @@
   "REQUIRED_Position": "The position is required",
   "REQUIRED_Price": "The price is required",
   "REQUIRED_UserById": "The id of the user who creates the record is required",
-
+  "REQUIRED_Address" :"The address is required",
+  "REQUIRED_Phone" : "The Phone Number is required",
+  "REQUIRED_Image":"The image is required",
+  "REQUIRED_Location":"The location is required",
+  "REQUIRED_Latitud":"The latitud is required",
+  "REQUIRED_Longitud":"The longitud is required",
 
   "PROFILE_NotFound": "Profile not found",
   "PROFILE_NotChangeProfile": "You can't edit another user's profile",
@@ -100,5 +105,15 @@
   "COMPLEMENTS_GetComplement": "Complement found",
   "COMPLEMENTS_GetComplements": "Listed complements",
   "COMPLEMENTS_UpdateComplement": "Updated complement",
-  "COMPLEMENTS_DeactivateComplement": "Deactivated complement"
+  "COMPLEMENTS_DeactivateComplement": "Deactivated complement",
+
+  "LOCAL_AlreadyExists": "There is already a local with the same name",
+  "LOCAL_CreateLocal": "Created local",
+  "LOCAL_NotFound": "Local not found",
+  "LOCAL_GetLocal": "Local found",
+  "LOCAL_GetLocals": "Listed local",
+  "LOCAL_UpdateLocal": "Updated local",
+  "LOCAL_DeactivateLocal": "Deactivated local"
+
+  
 }
