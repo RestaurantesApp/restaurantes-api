@@ -31,12 +31,14 @@ categoriesRoutes.post(
 categoriesRoutes.patch(
   '/:idCategory',
   authToken,
+  authorization,
   categoriesDto.updateCategory,
   categoriesControllers.updateCategory,
 )
 categoriesRoutes.delete(
   '/:idCategory',
   authToken,
+  authorization,
   categoriesControllers.deleteCategory,
 )
 

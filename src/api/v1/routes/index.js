@@ -5,3 +5,5 @@ export { default as profileRoutes } from './profile.routes.js'
 export { default as complementsRoutes } from './complements.routes.js'
 export { default as categoriesRoutes  } from './category.routes.js'
 export { default as localRoutes  } from './local.routes.js'
+export { default as extrasRoutes } from './extras.routes.js'
+

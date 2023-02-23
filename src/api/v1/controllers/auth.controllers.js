@@ -35,6 +35,7 @@ const login = async (req, res) => {
       { id: Paths.users, label: t('PATHS_Users') },
       { id: Paths.permissions, label: t('PATHS_Permissions') },
       { id: Paths.categories, label: t('PATHS_Categories')},
+      { id: Paths.extras, label: t('PATHS_Extras')},
     ]
     const methods = [
       { id: Methods.get, label: t('METHODS_GET') },
