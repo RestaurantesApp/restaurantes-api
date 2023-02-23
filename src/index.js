@@ -11,6 +11,7 @@ import {
   permissionsRoutes,
   usersRoutes,
   profileRoutes,
+  drinksRoutes,
 } from './api/v1/routes/index.js'
 import { languages } from './middlewares/validations/index.js'
 
@@ -55,6 +56,7 @@ app.use('/api/v1', authRoutes)
 app.use(`/api/v1/${Paths.users}`, usersRoutes)
 app.use(`/api/v1/${Paths.permissions}`, permissionsRoutes)
 app.use(`/api/v1/${Paths.profile}`, profileRoutes)
+app.use(`/api/v1/${Paths.drinks}`, drinksRoutes)
 
 const bootstrap = async () => {
   await connectDB()

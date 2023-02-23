@@ -66,5 +66,13 @@
   "Permissions_CreatePermission": "Permiso creado",
   "Permissions_DeletePermission": "Permiso eliminado",
   "Permissions_NotFound": "Permiso no encontrado",
-  "Permissions_AlreadyExists": "Ya existe un permiso con la misma configuración"
+  "Permissions_AlreadyExists": "Ya existe un permiso con la misma configuración", 
+
+  "DRINKS_AlreadyExists": "Ya existe una bebida con el mismo nombre",
+   "DRINKS_CreateDrink": "Bebida creada",
+   "DRINKS_NotFound": "Bebida no encontrada",
+   "DRINKS_GetDrink": "Bebida encontrada",
+   "DRINKS_GetDrinks": "Bebidas listadas",
+   "DRINKS_UpdateDrink": "Bebida actualizada",
+   "DRINKS_DeactivateDrink": "Bebida desactivada"
 }
