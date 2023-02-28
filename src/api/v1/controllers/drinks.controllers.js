@@ -9,6 +9,7 @@ const getDrinks = async (req, res) => {
         id: drink.id,
         name: drink.name,
         active: drink.active,
+        price: drink.price,
         createBy: drink.createBy,
         createdAt: drink.createdAt,
         updateBy: drink.updateBy,
@@ -61,16 +62,15 @@ const getDrinks = async (req, res) => {
 const createDrink = async (req, res) => {
   const dataResponse = { message: '', data: null }
   const { body, t } = req
-  const userBy = req.user.id
 
   try {
     const newDrink = {
       name: body.name,
       active: body.active,
       price: body.price,
-      createBy: userBy,
-      updateBy: '',
       image: body.image,
+      createBy: body.createBy,
+      updateBy: '',
     }
 
     // Validations
@@ -100,7 +100,6 @@ const updateDrink = async (req, res) => {
     const dataResponse = { message: '', data: null }
     const { body: newDrink, t } = req
     const idDrink = req.params.idDrink
-    const userBy = req.user.id
     
     try {
       const drink = await drinksModels.findById(idDrink).exec()
@@ -118,9 +117,9 @@ const updateDrink = async (req, res) => {
         return res.status(409).send(dataResponse)
       }
       drink.name = newDrink.name || drink.name
-      drink.active = newDrink.active || drink.active
+      drink.active = newDrink.active 
       drink.price = newDrink.price || drink.price
-      drink.updateBy = userBy
+      drink.updateBy = newDrink.updateBy || drink.updateBy
       drink.image = newDrink.image || drink.image
       await drink.save()
       dataResponse.message = t('DRINKS_UpdateDrink')

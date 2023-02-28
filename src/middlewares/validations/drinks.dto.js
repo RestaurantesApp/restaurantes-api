@@ -35,6 +35,13 @@ const createDrink = (req, res, next) => {
               type: t('VALID_String'),
             },
           }),
+          createBy: Type.String({
+            isNotEmpty: true,
+            errorMessage: {
+              isNotEmpty: t('VALID_NotEmpty'),
+              type: t('VALID_String'),
+            },
+          }),
       },
       {
         additionalProperties: false,
@@ -42,11 +49,11 @@ const createDrink = (req, res, next) => {
           type: t('VALID_Object'),
           additionalProperties: t('VALID_FormatObject'),
           required: {
-            name: t('REQUIRED_Name'),
-           // active: t('REQUIRED_Active'),
-           // price: t('REQUIRED_Price'),
-           // image: t('REQUIRED_Image'),
-            
+           name: t('REQUIRED_Name'),
+           active: t('REQUIRED_Active'),
+           price: t('REQUIRED_Price'),
+           image: t('REQUIRED_Image'),
+           createBy: t('REQUIRED_CreateBy'),
           },
         },
       },
@@ -100,6 +107,13 @@ const updateDrink = (req, res, next) => {
               },
             }),
           ),
+          updateBy: Type.String({
+            isNotEmpty: true,
+            errorMessage: {
+              isNotEmpty: t('VALID_NotEmpty'),
+              type: t('VALID_String'),
+            },
+          }),
         },
         {
           additionalProperties: false,
