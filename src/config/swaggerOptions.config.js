@@ -1,9 +1,12 @@
+import dotenv from 'dotenv'
+dotenv.config()
+
 export default {
   explorer: true,
   swaggerOptions: {
     urls: [
       {
-        url: `${'http://localhost:3000'}/api/v1/docs/swagger.yaml`,
+        url: `${process.env.SERVER_URL_NAME}/api/v1/docs/swagger.yaml`,
         name: 'v1',
       },
     ],
