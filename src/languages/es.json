@@ -1,6 +1,9 @@
 {
   "PATHS_Users": "Usuarios",
   "PATHS_Permissions": "Permisos",
+  "PATHS_Categories": "Categorias",
+  "PATHS_Extras": "Extras",
+
 
   "METHODS_GET": "Ver",
   "METHODS_POST": "Crear",
@@ -36,7 +39,42 @@
   "REQUIRED_Role": "El rol es requerido",
   "REQUIRED_Path": "La ruta es requerida",
   "REQUIRED_Method": "El método es requerido",
+  "REQUIRED_Active": "El activo es requerido",
+  "REQUIRED_CreateBy": "El creador es requerido",
+  "REQUIRED_Status": "El estado es requerido",
+  "REQUIRED_Position": "La posición es requerida",
+  "REQUIRED_Price": "El precio es requerido",
+  "REQUIRED_UserById": "El id del usuario que crea el registro es requerido",
+  "REQUIRED_Address" :"La dirrección es requerida",
+  "REQUIRED_Phone" : "El número de teléfono es requerido",
+  "REQUIRED_Image":"La imagen es requerida",
+  "REQUIRED_Location":"La ubicación es requerida",
+  "REQUIRED_Latitud":"La latitud es requerida",
+  "REQUIRED_Longitud":"La longitud es requerida",
 
+
+  "PROFILE_NotFound": "Perfil no encontrado",
+  "PROFILE_NotChangeProfile": "No puede editar perfil de otro usuario",
+  "PROFILE_UpdateProfile": "Perfil actualizado",
+  "PROFILE_GetProfile": "Perfil encontrado",
+
+  "CATEGORIES_AlreadyExists": "Ya existe una categoria con  el mismo nombre",
+  "CATEGORIES_AlreadyExistsPosition": "Ya existe una posición con el mismo valor",
+  "CATEGORIES_CreateCategory": "Categoria creada",
+  "CATEGORIES_NotFoun": "Categoria no encontrada",
+  "CATEGORIES_GetCategory": "Categoria encontrada",
+  "CATEGORIES_GetCategories": "Categorias listadas",
+  "CATEGORIES_UpdateCategory": "Categoria actualizada",
+  "CATEGORIES_DeleteCategory": "Categoria desactivada",
+
+  "EXTRAS_AlreadyExists": "Ya existe un extra con  el mismo nombre",
+  "EXTRAS_CreateExtra": "Extra creado",
+  "EXTRAS_NotFoun": "Extra no encontrado",
+  "EXTRAS_GetExtra": "Extra encontrado",
+  "EXTRAS_GetExtras": "Extras listados",
+  "EXTRAS_UpdateExtra": "Extra actualizado",
+  "EXTRAS_DeleteExtra": "Extra desactivado",
+  
   "USERS_Login": "Usuario autenticado",
   "USERS_GetUsers": "Usuarios listados",
   "USERS_GetUser": "Usuario encontrado",
@@ -61,5 +99,31 @@
   "Permissions_CreatePermission": "Permiso creado",
   "Permissions_DeletePermission": "Permiso eliminado",
   "Permissions_NotFound": "Permiso no encontrado",
-  "Permissions_AlreadyExists": "Ya existe un permiso con la misma configuración"
+  "Permissions_AlreadyExists": "Ya existe un permiso con la misma configuración", 
+ "Permissions_AlreadyExists": "Ya existe un permiso con la misma configuración",
+
+  "DRINKS_AlreadyExists": "Ya existe una bebida con el mismo nombre",
+   "DRINKS_CreateDrink": "Bebida creada",
+   "DRINKS_NotFound": "Bebida no encontrada",
+   "DRINKS_GetDrink": "Bebida encontrada",
+   "DRINKS_GetDrinks": "Bebidas listadas",
+   "DRINKS_UpdateDrink": "Bebida actualizada",
+   "DRINKS_DeactivateDrink": "Bebida desactivada",
+ 
+  "COMPLEMENTS_AlreadyExists": "Ya existe un complemento con ese mismo nombre",
+  "COMPLEMENTS_CreateComplement": "Complemento creado",
+  "COMPLEMENTS_NotFound": "Complemento no encontrado",
+  "COMPLEMENTS_GetComplement": "Complemento encontrado",
+  "COMPLEMENTS_GetComplements": "Listado de Complementos",
+  "COMPLEMENTS_UpdateComplement": "Complemento actualizado",
+  "COMPLEMENTS_DeactivateComplement": "Complemento desactivado",
+
+  "LOCAL_AlreadyExists": "Ya existe un local con ese mismo nombre",
+  "LOCAL_CreateLocal": "Local creado",
+  "LOCAL_NotFound": "Local no encontrado",
+  "LOCAL_GetLocal": "Local encontrado",
+  "LOCAL_GetLocals": "Listado de locales",
+  "LOCAL_UpdateLocal": "Local actualizado",
+  "LOCAL_DeactivateLocal": "Local desactivado"
+
 }

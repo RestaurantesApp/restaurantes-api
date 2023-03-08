@@ -1,6 +1,8 @@
 {
   "PATHS_Users": "Users",
   "PATHS_Permissions": "Permissions",
+  "PATHS_Categories": "Categorias",
+  "PATHS_Extras": "Extras",
 
   "METHODS_GET": "View",
   "METHODS_POST": "Create",
@@ -36,6 +38,40 @@
   "REQUIRED_Role": "The role is required",
   "REQUIRED_Path": "The path is required",
   "REQUIRED_Method": "The method is required",
+  "REQUIRED_Active": "The active is required",
+  "REQUIRED_CreateBy": "The created is required",
+  "REQUIRED_Status": "status is required",
+  "REQUIRED_Position": "The position is required",
+  "REQUIRED_Price": "The price is required",
+  "REQUIRED_UserById": "The id of the user who creates the record is required",
+  "REQUIRED_Address" :"The address is required",
+  "REQUIRED_Phone" : "The Phone Number is required",
+  "REQUIRED_Image":"The image is required",
+  "REQUIRED_Location":"The location is required",
+  "REQUIRED_Latitud":"The latitud is required",
+  "REQUIRED_Longitud":"The longitud is required",
+
+  "PROFILE_NotFound": "Profile not found",
+  "PROFILE_NotChangeProfile": "You can't edit another user's profile",
+  "PROFILE_UpdateProfile": "Updated profile",
+  "PROFILE_GetProfile": "Profile found",
+
+  "CATEGORIES_AlreadyExists": "There is already a category with the same name",
+  "CATEGORIES_AlreadyExistsPosition": "An item with the same value already exists",
+  "CATEGORIES_CreateCategory": "Created category",
+  "CATEGORIES_NotFoun": "Category not found",
+  "CATEGORIES_GetCategory": "Category found",
+  "CATEGORIES_GetCategories": "Categorias listadas",
+  "CATEGORIES_UpdateCategory": "Updated category",
+  "CATEGORIES_DeleteCategory": "Deactivated category",
+
+  "EXTRAS_AlreadyExists": "There is already an extra with the same name",
+  "EXTRAS_CreateExtra": "Created extra",
+  "EXTRAS_NotFoun": "Extra not found",
+  "EXTRAS_GetExtra": "Extra found",
+  "EXTRAS_GetExtras": "Listed extras",
+  "EXTRAS_UpdateExtra": "Updated extra",
+  "EXTRAS_DeleteExtra": "Deactivated Extra",
 
   "USERS_Login": "Authenticated user",
   "USERS_GetUsers": "Listed users",
@@ -61,5 +97,31 @@
   "Permissions_CreatePermission": "Permission created",
   "Permissions_DeletePermission": "Permission removed",
   "Permissions_NotFound": "Permission not found",
-  "Permissions_AlreadyExists": "A permission already exists with the same settings"
+  "Permissions_AlreadyExists": "A permission already exists with the same settings",
+
+  "DRINKS_AlreadyExists": "There is already a drinks with the same name",
+  "DRINKS_CreateDrink": "Created drink",
+  "DRINKS_NotFound": "Drink not found",
+  "DRINKS_GetDrink": "Drink found",
+  "DRINKS_GetDrinks": "Listed drinks",
+  "DRINKS_UpdateDrink": "Updated drink",
+  "DRINKS_DeactivateDrink": "Deactivated drink",
+
+  "COMPLEMENTS_AlreadyExists": "There is already a complements with the same name",
+  "COMPLEMENTS_CreateComplement": "Created complement",
+  "COMPLEMENTS_NotFound": "Complement not found",
+  "COMPLEMENTS_GetComplement": "Complement found",
+  "COMPLEMENTS_GetComplements": "Listed complements",
+  "COMPLEMENTS_UpdateComplement": "Updated complement",
+  "COMPLEMENTS_DeactivateComplement": "Deactivated complement",
+
+  "LOCAL_AlreadyExists": "There is already a local with the same name",
+  "LOCAL_CreateLocal": "Created local",
+  "LOCAL_NotFound": "Local not found",
+  "LOCAL_GetLocal": "Local found",
+  "LOCAL_GetLocals": "Listed local",
+  "LOCAL_UpdateLocal": "Updated local",
+  "LOCAL_DeactivateLocal": "Deactivated local"
+
+  
 }
